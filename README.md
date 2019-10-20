@@ -22,22 +22,22 @@ git clone git@github.com:felipepedroso/mp3tospotify.git
 cd mp3tospotify
 ```
 
-1. Install the required dependencies using `pip`:
+2. Install the required dependencies using `pip`:
 
 ```shell
 pip install -r requirements.txt
 ```
 
-1. Create your Spotify Web API app credentials [here](https://developer.spotify.com/documentation/web-api/). 
+3. Create your Spotify Web API app credentials [here](https://developer.spotify.com/documentation/web-api/). 
 
-1. Create the following environment variables using your Spotify credentials:
+4. Create the following environment variables using your Spotify credentials:
 ```shell
 export SPOTIFY_CLIENT_ID="<YOUR-CLIENT-ID-HERE>"
 export SPOTIFY_CLIENT_SECRET="<YOUR-CLIENT-SECRET-HERE>"
 export SPOTIFY_USERNAME="<YOUR-SPOTIFY-USERNAME>"
 ```
 
-1. Run the script:
+5. Run the script:
 
 ```shell
 python -m mp3tospotify /path/to/your/mp3/files
