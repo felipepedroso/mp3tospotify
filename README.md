@@ -43,7 +43,7 @@ export SPOTIFY_USERNAME="<YOUR-SPOTIFY-USERNAME>"
 python -m mp3tospotify /path/to/your/mp3/files
 ```
 
-The script will run and categorize your files into folders according the results of processing.
+The script will run and categorize your files into folders according the results of processing. If it's the first time that you are running this script, Spotify will open the browser, request your Spotify login and request to paste the redirected URL on console.
 
 Please note that you can specify some parameters on the script:
 
